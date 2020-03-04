@@ -15,6 +15,6 @@ repositories {
 
 ```
 dependencies {
-	implementation "org.dexcare:dexcare:1.0.0"
+	implementation "org.dexcare:dexcare:1.0.13"
 }
 ```
