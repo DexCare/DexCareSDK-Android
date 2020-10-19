@@ -5,6 +5,11 @@ See https://providenceinnovation.github.io/dexcaredocs/ for documentation and a 
 To install, add the following to your project root's build.gradle file, and replace `githubUserName` and `githubToken` with your credentials used to access this repository:
 ```
 repositories {
+        // required for rxpermissions (DexCare SDK dependency)
+        maven { url "https://jitpack.io" }
+
+        // required for tokbox (DexCare SDK dependency)
+        maven { url 'https://tokbox.bintray.com/maven' }
 	maven {
 		url "https://maven.pkg.github.com/Health-V2-Consortium/DexCareSDK-Android/"
 		credentials {
@@ -26,6 +31,11 @@ If you don't want to hardcode the credentials, they can be set as environment va
 
 ```
 repositories {
+        // required for rxpermissions (DexCare SDK dependency)
+        maven { url "https://jitpack.io" }
+
+        // required for tokbox (DexCare SDK dependency)
+        maven { url 'https://tokbox.bintray.com/maven' }
 	maven {
 		url "https://maven.pkg.github.com/Health-V2-Consortium/DexCareSDK-Android/"
 		credentials {
