@@ -23,7 +23,7 @@ repositories {
 Also add the following implementation to the dependencies section of your app's build.gradle file:
 ```
 dependencies {
-	implementation "org.dexcare:dexcare:3.0.0"
+	implementation "org.dexcare:dexcare:3.0.2"
 }
 ```
 ___
