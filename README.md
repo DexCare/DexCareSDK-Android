@@ -29,6 +29,6 @@ You will need to set up two environment variables `DEXCARE_MAVEN_ACCOUNT` and `D
 Also add the following implementation to the dependencies section of your app's build.gradle file:
 ```
 dependencies {
-	implementation "org.dexcare:dexcare:6.1.1"
+	implementation "org.dexcare:dexcare:6.1.2"
 }
 ```
